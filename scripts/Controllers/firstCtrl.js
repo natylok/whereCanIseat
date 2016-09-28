@@ -5,8 +5,8 @@
 
 		function firstCtrl(){
 			var self = this;
-			self.a = 3;
-			self.b = 6
-			self.c = 2 + 5; 
+			self.a = 11;
+			self.b = 11;
+			self.c = 11 + 5; 
 		}
 })(window.angular);
