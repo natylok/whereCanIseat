@@ -1,0 +1,14 @@
+body{
+background-color: rgba(45,67,82,1);
+background: @include filter-gradient(#2d4352, #cad2db, horizontal);
+background: @include background-image(linear-gradient(left top, rgba(45,67,82,1) 0%, rgba(45,67,82,1) 3%, rgba(45,67,82,1) 13%, rgba(202,210,219,1) 69%, rgba(202,210,219,1) 77%, rgba(202,210,219,1) 86%, rgba(202,210,219,1) 94%, rgba(202,210,219,1) 100%));
+
+}
+.mainLogo{
+	width:100%;
+	height:120px;
+    border-bottom-style: solid;
+    border-bottom-color:white;
+    border-bottom-width: 0.3px;
+
+}

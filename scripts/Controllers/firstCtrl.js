@@ -1,12 +1,13 @@
 (function(angular){
 		'use strict';
 
-		mainApp.controller("firstCtrl",firstCtrl);
+		angular.module("mainApp",[])
+		.controller("firstCtrl",firstCtrl);
 
 		function firstCtrl(){
 			var self = this;
-			self.a = 11;
-			self.b = 11;
-			self.c = 11 + 5; 
+			self.a = 5;
+			self.b = 4;
+			self.c = 5 + 4;
 		}
 })(window.angular);
